@@ -66,6 +66,9 @@ TIMER2_ISR:
 	;The loop to run your timer N times should be written here. The value of N should be chosen in a way that N*n = 1 second where n is the 
 	;time that the timer counts based on RCAP2L_VAL and RCAP2H_VAL chosen in INIT_1_SEC_TIMER subroutine above.
 	
+	; V;s note: should we call `SETB TR2` first to start the timer?
+	; SETB TR2  ; Enable timer 2
+
 	REPEAT: ; V's note: This repeat is for executing
 		MOV    R1, #20H ; Set the counter for 32 time loop, take over by 1 each time.
 	WAIT:
