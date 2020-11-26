@@ -1,0 +1,1 @@
+"Source\timer.s" NOMOD51 SET (SMALL) DEBUG PRINT(.\Listings\timer.lst) OBJECT(.\Objects\timer.obj) EP

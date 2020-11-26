@@ -1,0 +1,5 @@
+".\Objects\utils.obj",
+".\Objects\main.obj",
+".\Objects\timer.obj" 
+TO ".\Objects\Blinky_very_accurate" 
+PRINT(".\Listings\Blinky_very_accurate.m51") RAMSIZE(256) 
